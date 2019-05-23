@@ -22,9 +22,9 @@
 
 ## Usage
 ```javascript
-import RNReactNativeX5webviewIos from 'react-native-react-native-x5webview-ios';
+import RNCX5WebViewManager from 'react-native-react-native-x5webview-ios';
 
 // TODO: What to do with the module?
-RNReactNativeX5webviewIos;
+RNCX5WebViewManager;
 ```
   
