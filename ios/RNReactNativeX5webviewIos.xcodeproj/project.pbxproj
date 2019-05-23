@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4735393D2296B4A8001AA9B0 /* RNCX5WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4735393C2296B4A8001AA9B0 /* RNCX5WebView.m */; };
 		473539402296B503001AA9B0 /* RNCX5WebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4735393F2296B503001AA9B0 /* RNCX5WebViewManager.m */; };
+		4735399E2296BB3D001AA9B0 /* TBSPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4735399D2296BB3C001AA9B0 /* TBSPlus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		4735393C2296B4A8001AA9B0 /* RNCX5WebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCX5WebView.m; sourceTree = "<group>"; };
 		4735393E2296B503001AA9B0 /* RNCX5WebViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCX5WebViewManager.h; sourceTree = "<group>"; };
 		4735393F2296B503001AA9B0 /* RNCX5WebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCX5WebViewManager.m; sourceTree = "<group>"; };
+		4735399C2296BB3C001AA9B0 /* TBSPlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TBSPlus.bundle; sourceTree = "<group>"; };
+		4735399D2296BB3C001AA9B0 /* TBSPlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBSPlus.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4735399E2296BB3D001AA9B0 /* TBSPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				4735393B2296B4A8001AA9B0 /* RNCX5WebView.h */,
+				4735399C2296BB3C001AA9B0 /* TBSPlus.bundle */,
+				4735399D2296BB3C001AA9B0 /* TBSPlus.framework */,
 				4735393C2296B4A8001AA9B0 /* RNCX5WebView.m */,
 				4735393E2296B503001AA9B0 /* RNCX5WebViewManager.h */,
 				4735393F2296B503001AA9B0 /* RNCX5WebViewManager.m */,
@@ -209,6 +215,10 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -225,6 +235,10 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
